@@ -7,7 +7,7 @@ import ClipPath from "../assets/svg/ClipPath";
 
 const Benefits = () => {
   return (
-    <Section id="features">
+    <Section id="why-choose-us">
       <div className="container relative z-2">
         <Heading className="" title="Showcase your unique story and skills." />
         <div className="flex flex-wrap gap-10 mb-10">

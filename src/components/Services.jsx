@@ -5,7 +5,7 @@ import Section from "./Section";
 
 const Services = () => {
   return (
-    <Section id="how-to-use">
+    <Section id="services-offered">
       <div className="container">
         <Heading
           title="Elevate Your Career with FOXON TECH!"

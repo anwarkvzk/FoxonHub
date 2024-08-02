@@ -40,27 +40,27 @@ export const navigation = [
   {
     id: "0",
     title: "Services Offered",
-    url: "#Services-Offered",
+    url: "#services-offered",
   },
   {
     id: "1",
     title: "Why Choose Us",
-    url: "#Why-Choose-Us",
+    url: "#why-choose-us",
   },
   {
     id: "2",
-    title: "What Client said",
-    url: "#What-Client-said",
+    title: "What Client Said",
+    url: "#what-client-said",
   },
   {
     id: "3",
     title: "Contact Information",
-    url: "#Contact-Information",
+    url: "#contact-information",
   },
   {
     id: "4",
-    title: "Brand partnership",
-    url: "#Brand-partnership",
+    title: "Brand Partnership",
+    url: "#brand-partnership",
   },
   {
     id: "5",
