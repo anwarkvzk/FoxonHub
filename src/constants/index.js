@@ -57,23 +57,23 @@ export const navigation = [
     title: "Contact Information",
     url: "#contact-information",
   },
-  {
-    id: "4",
-    title: "Brand Partnership",
-    url: "#brand-partnership",
-  },
-  {
-    id: "5",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "6",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
-  },
+  // {
+  //   id: "4",
+  //   title: "Brand Partnership",
+  //   url: "#brand-partnership",
+  // },
+  // {
+  //   id: "5",
+  //   title: "New account",
+  //   url: "#signup",
+  //   onlyMobile: true,
+  // },
+  // {
+  //   id: "6",
+  //   title: "Sign in",
+  //   url: "#login",
+  //   onlyMobile: true,
+  // },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -83,10 +83,10 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Quality Assurance",
-  "Revisions",
-  "Payment Terms",
-  "Refund Policy",
+  "Europass CV",
+  "Professional CV",
+  "Motivation Letter",
+  "Cover Letter",
 ];
 
 export const brainwaveServicesIcons = [

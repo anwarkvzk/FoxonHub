@@ -24,7 +24,7 @@ const Services = () => {
             </div>
             <div className="relative z-1 ml-auto">
               <h4 className="h4 mb-4">We Provide</h4>
-              <p className="body-2 mb-[3rem] text-n-3">Terms of Service</p>
+              <p className="body-2 mb-[3rem] text-n-3">Our Services</p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
                   <li
