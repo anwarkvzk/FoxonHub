@@ -83,10 +83,11 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
+  "Professional Resume",
   "Europass CV",
-  "Professional CV",
-  "Motivation Letter",
+  "Statement of Purpose (SOP)",
   "Cover Letter",
+  "Motivation Letter",
 ];
 
 export const brainwaveServicesIcons = [
@@ -250,16 +251,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Professional Expertise",
-    text: "Get a top-quality CV made by experts who know what employers want, making you stand out.",
+    title: "Personalized Approach",
+    text: "Every document is tailored to your individual needs and goals.",
     backgroundUrl: "assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Personalized Attention",
-    text: " Have your CV tailored to show off your skills and experience, focusing on what makes you unique.",
+    title: "100% Satisfaction Guarantee",
+    text: "We are committed to your success, offering revisions until you are fully satisfied with the final product.",
     backgroundUrl: "assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -267,37 +268,37 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Optimized for ATS",
-    text: " Make sure your CV gets past automated filters used by companies, so it reaches real recruiters.",
+    title: "Time -Saving",
+    text: "We strive to complete and deliver your order within 24 hours from the time all information is received.",
     backgroundUrl: "assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Time-Saving",
-    text: "Save time and effort by letting professionals handle your CV, giving you more time for job applications.",
+    title: "Updated Formats and Styles",
+    text: "Keep your CV looking modern and professional, with up-to-date designs that catch attention.",
     backgroundUrl: "assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
   },
-  {
-    id: "4",
-    title: "Updated Formats and Styles",
-    text: "Keep your CV looking modern and professional, with up-to-date designs that catch attention.",
-    backgroundUrl: "assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Additional Services",
-    text: "Get extra help with things like writing cover letters and improving your LinkedIn profile, all in one service.",
-    backgroundUrl: "assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-  },
+  // {
+  //   id: "4",
+  //   title: "Updated Formats and Styles",
+  //   text: "Keep your CV looking modern and professional, with up-to-date designs that catch attention.",
+  //   backgroundUrl: "assets/benefits/card-5.svg",
+  //   iconUrl: benefitIcon1,
+  //   imageUrl: benefitImage2,
+  // },
+  // {
+  //   id: "5",
+  //   title: "Additional Services",
+  //   text: "Get extra help with things like writing cover letters and improving your LinkedIn profile, all in one service.",
+  //   backgroundUrl: "assets/benefits/card-6.svg",
+  //   iconUrl: benefitIcon2,
+  //   imageUrl: benefitImage2,
+  // },
 ];
 
 export const socials = [

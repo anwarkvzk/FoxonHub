@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="container relative" ref={parallaxRef}>
           <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[4rem] md:mb-20 lg:mb:[6rem]">
             <h1 className="h1 mb-6">
-              Transform your career with our expert writing services! 🌟✍️
+              Transform your career with our expert writing services!
               <span className="inline-block relative">
                 Foxon Hub{" "}
                 <img
@@ -39,7 +39,7 @@ const Hero = () => {
               At FOXON HUB, we specialize in crafting compelling CVs, resumes,
               and engaging content tailored to showcase your unique story and
               skills. Whether you’re aiming for a career move or enhancing your
-              online presence, let us help you stand out from the crowd! 💼
+              online presence, let us help you stand out from the crowd! 
             </p>
             {/* <Button href="/#Services-Offered" white>
               Get Started

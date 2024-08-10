@@ -97,11 +97,11 @@ const ContactPage = () => {
 
         <div style={{ marginTop: "40px" }}>
           <h3>Our Contact Information</h3>
-          <p>
+          {/* <p>
             <strong>Email:</strong> contact@example.com
-          </p>
+          </p> */}
           <p>
-            <strong>Phone:</strong> +123 456 7890
+            <strong>Phone:</strong> +918089246883
           </p>
         </div>
       </div>

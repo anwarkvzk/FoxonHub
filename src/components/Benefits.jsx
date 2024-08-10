@@ -4,12 +4,14 @@ import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
+import Button from "./Button";
 
 const Benefits = () => {
+  const phoneNumber = "8089246883";
   return (
     <Section id="why-choose-us">
       <div className="container relative z-2">
-        <Heading className="" title="Showcase your unique story and skills." />
+        <Heading className="" title="FOXON HUB, Terms of Service" />
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div
@@ -17,20 +19,25 @@ const Benefits = () => {
               style={{ backgroundImage: `url(${item.backgroundUrl})` }}
               key={item.id}
             >
-              <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
+              <div className="relative z-2 flex flex-col min-h-[12rem] p-[2.4rem] pointer-events-none">
                 <h5 className="h5 mb-5">{item.title}</h5>
                 <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div className="flex items-center mt-auto">
-                  <img
+                  {/* <img
                     src={item.iconUrl}
                     width={48}
                     height={48}
                     alt={item.title}
                   />
-                  <p className="ml-auto font-code font-xs font-bold text-n-1 uppercase tracking-wider">
-                    Explore more!
-                  </p>
-                  <Arrow />
+                  <Button
+                    href={`https://wa.me/${phoneNumber}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-auto font-code font-xs font-bold text-n-1 uppercase tracking-wider hover:bg-green-600 transition duration-300"
+                  >
+                    Contact Us
+                  </Button>
+                  <Arrow /> */}
                 </div>
               </div>
               {item.light && <GradientLight />}
