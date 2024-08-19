@@ -217,7 +217,7 @@ export const pricing = [
     id: "0",
     title: "Professional CV",
     description: "Unlock Opportunities with Foxon Hub's Professional CVs",
-    price: "299",
+    price: "399",
     features: [
       "Emphasize Key Skills and Competencies",
       "Highlight Professional Achievements",
@@ -228,7 +228,7 @@ export const pricing = [
     id: "1",
     title: "Europass CV",
     description: "Craft Your Perfect Europass CV with Foxon Tech",
-    price: "250 ",
+    price: "249 ",
     features: [
       "Comprehensive Personal Information Section",
       "Showcase Your Language Proficiency",
@@ -239,7 +239,7 @@ export const pricing = [
     id: "2",
     title: "Cover Letter",
     description: "Achieve Your Goals with Foxon Hub's Cover Letter Expertise",
-    price: "250",
+    price: "249",
     features: [
       "Addressing Key Points from Job Descriptions",
       "Targeted Content Tailored to Job Requirements",

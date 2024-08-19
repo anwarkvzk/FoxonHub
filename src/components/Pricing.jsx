@@ -27,8 +27,8 @@ const Pricing = () => {
           </div>
         </div>
         <Heading
-          tag="Get started with Foxon Hub"
-          title="Pay once, use forever"
+          // tag="Get started with Foxon Hub"
+          title="Pricing"
         />
         <div className="relative">
           <PricingList />
